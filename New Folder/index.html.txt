@@ -1,0 +1,92 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPATS Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <h2>SPATS</h2>
+
+    <ul>
+      <li>Dashboard</li>
+      <li>Attendance</li>
+      <li>Marks</li>
+      <li>Students</li>
+      <li>Reports</li>
+    </ul>
+  </div>
+
+  <div class="main">
+
+    <div class="topbar">
+      <h1>Student Dashboard</h1>
+      <button id="darkBtn">Dark Mode</button>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Total Students</h3>
+        <p>120</p>
+      </div>
+
+      <div class="card">
+        <h3>Average Attendance</h3>
+        <p>87%</p>
+      </div>
+
+      <div class="card">
+        <h3>Top Performer</h3>
+        <p>Bobby</p>
+      </div>
+
+    </div>
+
+    <div class="table-section">
+      <h2>Attendance Records</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Attendance</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Rahul</td>
+            <td>92%</td>
+            <td class="good">Good</td>
+          </tr>
+
+          <tr>
+            <td>Arjun</td>
+            <td>68%</td>
+            <td class="low">Low</td>
+          </tr>
+
+          <tr>
+            <td>Bobby</td>
+            <td>89%</td>
+            <td class="good">Good</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
